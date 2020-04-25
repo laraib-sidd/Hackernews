@@ -54,7 +54,7 @@ def create_datebase(data):
 
 if __name__ == "__main__":
     print("\n\tThe best of HackerNews for you in CommandLine\n")
-    print("\n\tIt Scrapes all the stories that have score over 100.\n")
+    print("\n\tIt Scrapes all the stories that have score over 100.....\n")
     num = int(input("\tHow many pages of HackerNews you want to scrape of : "))
     result = ['https://news.ycombinator.com/news?p='+str(letter) for letter in range(1,num)]
     mega_links,mega_subtext = scrape(result)
